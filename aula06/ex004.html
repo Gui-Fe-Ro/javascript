@@ -21,7 +21,13 @@
         var n1 = Number.parseInt(window.prompt('Digite um número: '))
         var n2 = Number.parseInt(window.prompt('Digite outro número: '))
         var s = n1+n2
-        window.alert('A soma dos valores é: '+s)
+        window.alert('A soma dos valores é: '+s.toString()) //Aqui eu converto a soma que é do tipo number para String
+        //Nova forma de escrever frases:
+        window.alert(`A soma dos valores é: ${s}`) //Template String -> O nome disso é placeholder
+        s.length //Tamanho da String
+        s.toUpperCase() //Passa tudo para maiúsculo
+        s.toLowerCase() //Passa tudo para minúsculo
+
 
     </script> 
 </body>

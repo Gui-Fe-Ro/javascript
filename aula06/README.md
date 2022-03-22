@@ -12,3 +12,10 @@ Para transformar de Número para String eu faço o mesmo
 
 * String(n)
 * n.toString()
+
+Para formatação de números eu tenho:
+
+* n.toFixed(2) -> Para determinar a quantidade de casas decimais
+* n.toFixed(2).replacec('.', ',') -> Para trocar ponto por vírgula
+
+n.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) -> Para trabalhar com conversão de moedas
